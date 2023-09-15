@@ -26,7 +26,16 @@ public class LoopEx5 {
 			
 			switch(choice) {
 			case "a":
-				System.out.println("더하기 작업 진행");
+				System.out.println("첫 번쨰 정수를 입력 > ");
+				int num1 = sc.nextInt();
+				System.out.println("두 번쨰 정수를 입력 > ");
+				int num2 = sc.nextInt();
+				
+				int result = num1 + num2;
+				
+				System.out.println("결과를 출력합니다.");
+				System.out.println("두 수의 합은 "+ result +"입니다.");
+				
 				System.out.println("");
 				break;
 				

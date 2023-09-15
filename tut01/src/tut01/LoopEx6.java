@@ -33,17 +33,14 @@ public class LoopEx6 {
 				money -= (coffee * num);
 				stock -= num;
 				
-				if(money < 0) {
-					System.out.println("잔액부족");
-					money = 10000;
-					stock = 10;
-					break;
+			if(money > 0) {
 					
-				} else if(stock < 0) {
+				if(stock < 0) {
+					
 					System.out.println("재고부족");
 					break;
 					
-				} else if(money >= coffee || money > 0) {
+				} else if(money >= coffee) {
 					
 					System.out.println("> 커피 "+ num +"잔을 구매하였습니다.");	
 					System.out.println(">> 남은 커피의 재고는 "+ stock +"잔입니다.");
@@ -51,7 +48,16 @@ public class LoopEx6 {
 					break;
 					
 				   }
-				}	
+				
+				} else { //처음 구매할 때, 보유한 잔액보다 많이 구매할 경우
+					
+					System.out.println("잔액부족"); 
+					money = 10000; // 다시 초기화
+					stock = 10;
+					break;
+				}
+
+			} 	
 			
 			case "B":
 			case "b":
