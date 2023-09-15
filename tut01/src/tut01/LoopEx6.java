@@ -52,8 +52,8 @@ public class LoopEx6 {
 				} else { //처음 구매할 때, 보유한 잔액보다 많이 구매할 경우
 					
 					System.out.println("잔액부족"); 
-					money = 10000; // 다시 초기화
-					stock = 10;
+					money = 10000; 
+					stock = 10; // 다시 초기화 
 					break;
 				}
 
