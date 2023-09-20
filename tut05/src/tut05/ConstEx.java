@@ -1,8 +1,9 @@
 package tut05;
 
 class Const {
-	//default 생성자 생략 가능 그 외에는 생성자를 만들어줘야 함
-	/*public Const() {}
+	//default 생성자는 생략가능 그 외에는 생성자를 만들어줘야 함
+	/*
+	public Const() {}
 	
 	
 	public Const(String str) {
