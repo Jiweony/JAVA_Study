@@ -1,0 +1,15 @@
+package tut07.dao;
+
+public class ScoresDao {
+
+	public void nullCheck() {
+		int[] scores = null;
+		
+		if(scores == null) {
+			System.out.println(">>>>> 1.학생수 메뉴에서 학생 수를 먼저 등록해주세요");
+			System.out.println("");
+			return;
+		}
+	}
+}
+

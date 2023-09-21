@@ -1,6 +1,6 @@
 package tut06;
 class Users2 {
-	//필ㄷ,
+	//필드
 	String userid;
 	String passwd;
 	int age;
