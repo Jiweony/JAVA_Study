@@ -13,7 +13,7 @@ public class MemberDao {
 		list.add(m);
 	}
 	
-	public void showMember() { //상세보기
+	public void showMember() { //상세보기 기능
 		for(Member mem : list) {
 			System.out.println(mem);
 			System.out.println("====================");
