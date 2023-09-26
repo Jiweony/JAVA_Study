@@ -62,10 +62,10 @@ public class MapEx02 {
 
 		map.forEach((k, v) -> {
 			Board board = (Board)map.get(k);
-			//board.disp();
+			board.disp();
 			//번호
 			System.out.println(board.getId());
 			});
 	
-}
+	}
 }
