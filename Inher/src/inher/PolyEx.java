@@ -11,6 +11,7 @@ class LinuxEx extends Osystem {
 	@Override
 	void run() {
 		System.out.println("Linux 운영체제 시작");
+		
 	}
 	
 }
