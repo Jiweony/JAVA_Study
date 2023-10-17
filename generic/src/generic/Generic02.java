@@ -4,7 +4,7 @@ package generic;
 class Item<K, V>{
 	private K k;
 	private V v;
-	
+
 	public K getK() {
 		return k;
 	}

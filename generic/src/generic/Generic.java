@@ -28,7 +28,7 @@ public class Generic {
 
 	public static void main(String[] args) {
 		Box3<Fruit3> box1 = new Box3<>();
-		box1.setT(new Fruit3());
+		box1.setT(new Fruit3()); //생성자 만듦
 		Fruit3 f2 = box1.getT();
 		System.out.println(f2);
 		
